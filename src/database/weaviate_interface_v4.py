@@ -354,7 +354,7 @@ class WeaviateWCS:
                                            alpha=alpha,
                                            limit=limit,
                                            return_metadata=MetadataQuery(score=True, distance=True),
-                                           return_properties=return_properties)
+                                           reget_doc_countturn_properties=return_properties)
         if return_raw:
             return response
         else: 
